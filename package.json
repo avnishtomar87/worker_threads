@@ -1,0 +1,19 @@
+{
+  "name": "worker_thread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-file-worker": "^1.1.0",
+    "express": "^4.18.2",
+    "file-saver": "^2.0.5",
+    "increase-memory-limit": "^1.0.7",
+    "json-stream-stringify": "^3.0.1"
+  }
+}
