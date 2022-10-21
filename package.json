@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon mainThread.js",
     "fix-memory-limit": "cross-env LIMIT=8192 increase-memory-limit"
   },
   "author": "",
